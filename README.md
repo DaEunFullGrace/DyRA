@@ -1,4 +1,4 @@
-# DyRA
+# DyRA: Dynamic Resolution Adjustment for Scale-robust Object Detection
 
 This repository is an implemented version of DyRA based on detectron2.\
 Our work supports RetinaNet, Faster-RCNN, Mask-RCNN, FCOS, and DETR(still in training).
