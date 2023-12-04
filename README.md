@@ -16,7 +16,7 @@ FCOS-ResNet101 | 43.8 | 56.4 | 47.4 | 28.8 | |
 
 ## Installation
 ```
-git clone https://github.com/DaeunFullGrace/DyRA.git
+git clone https://github.com/DaEunFullGrace/DyRA.git
 python -m pip install -e detectron2
 python -m pip install -e AdelaiDet
 ```
