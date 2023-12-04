@@ -23,13 +23,14 @@ python -m pip install -e AdelaiDet
 DETR - Will be uploaded
 
 ## Config Files
-Config files are in "detectron2/configs/DyRA" or "AdelaiDet/configs/DyRA".\
-If you want to use pre-trained weight for DyRA's image encoder, you should check the cfg.RESIZER.WEIGHTS contains a "resizer".\
-END_LR of ConstCosineLR: 3/2 * cfg.BASE_LR_END\
-cfg.BASE_LR_END=7.5e-5 - can get higher accuracy in certain models
+* Config files are in "detectron2/configs/DyRA" or "AdelaiDet/configs/DyRA"
+* If you want to use pre-trained weight for DyRA's image encoder, you should check the cfg.RESIZER.WEIGHTS contains a "resizer"
+* END_LR of ConstCosineLR: 3/2 * cfg.BASE_LR_END
+  * cfg.BASE_LR_END=7.5e-5 - can get higher accuracy in certain models
 
 ## Training and Evaluation
-The same command as the detectron2.
+The same command as the detectron2\
+Evaluation only supports single-gpu environment
 
 ## Acknowledgement
 
