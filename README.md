@@ -28,5 +28,7 @@ Config files are in "detectron2/configs/DyRA".\
 If you want to use pre-trained weight for DyRA's image encoder, you should check the cfg.RESIZER.WEIGHTS contains a "resizer".\
 END_LR of ConstCosineLR: 3/2 * cfg.BASE_LR_END
 
+If you use cfg.BASE_LR_END=7.5e-5, you can get higher accuracy in certain models
+
 ## Training and Evaluation
 The same command as the detectron2.
