@@ -1,6 +1,8 @@
 # DyRA: Dynamic Resolution Adjustment for Scale-robust Object Detection
 
 This repository is an implemented version of DyRA based on detectron2.\
+* Currently, we modifing the paper more easy to understand - [PaperLink](https://arxiv.org/abs/2311.17098)
+
 Our work supports RetinaNet, Faster-RCNN, Mask-RCNN, FCOS, and DETR(still in training).
 
 | Model | AP | AP_l | AP_m | AP_s | Weights | Log |
@@ -20,7 +22,7 @@ git clone https://github.com/DaEunFullGrace/DyRA.git
 python -m pip install -e detectron2
 python -m pip install -e AdelaiDet
 ```
-DETR - Will be uploaded
+DETR - Will be uploaded together with the weight link
 
 ## Config Files
 * Config files are in "detectron2/configs/DyRA" or "AdelaiDet/configs/DyRA"
