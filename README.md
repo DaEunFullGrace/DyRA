@@ -29,7 +29,7 @@ DETR - Will be uploaded together with the weight link
 * If you want to use pre-trained weight for DyRA's image encoder, you should check the cfg.RESIZER.WEIGHTS contains a "resizer"
   * E.g., cfg.RESIZER.WEIGHTS = "../weights/R-50-resizer.pkl"
 * END_LR of ConstCosineLR: 3/2 * cfg.BASE_LR_END
-  * cfg.BASE_LR_END=7.5e-5 - can get higher accuracy in certain models(likes RetinaNet)
+  * cfg.BASE_LR_END=7.5e-5 - can get higher accuracy in certain models(likes RetinaNet or FCOS)
 
 ## Training and Evaluation
 The same command as the detectron2\
