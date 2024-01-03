@@ -9,6 +9,8 @@ MODEL:
       NAME: "build_resnet_backbone"
       DEPTH: 18
       RES2_OUT_CHANNELS: 64
+INPUT:
+  MAX_SIZE_TRAIN: 800
 SOLVER:
   MAX_ITER: 180000
   BASE_LR_END: 5e-5
