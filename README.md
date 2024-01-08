@@ -1,6 +1,4 @@
 # DyRA: Dynamic Resolution Adjustment for Scale-robust Object Detection
-
-This repository is an implemented version of DyRA based on detectron2.
 * [PaperUpdate] Currently updating [PaperLink](https://arxiv.org/abs/2311.17098)
 
 Our work supports RetinaNet, Faster-RCNN, Mask-RCNN, FCOS, and DETR(still in training).
@@ -36,3 +34,4 @@ The same command as the detectron2\
 Evaluation only supports single-gpu environment
 
 ## Acknowledgement
+Our code is based on [detectron2](https://github.com/facebookresearch/detectron2) and [AdelaiDet](https://github.com/aim-uofa/AdelaiDet/tree/master).
