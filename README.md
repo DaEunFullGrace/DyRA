@@ -1,5 +1,6 @@
 # DyRA: Dynamic Resolution Adjustment for Scale-robust Object Detection
 * [PaperUpdate] Currently updating [PaperLink](https://arxiv.org/abs/2311.17098)
+* [Code verification] There is a code implementation issue for BalaceLoss. Currently, we are fixing it.
 
 Our work supports RetinaNet, Faster-RCNN, Mask-RCNN, FCOS, and DETR(still in training).
 
