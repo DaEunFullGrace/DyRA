@@ -15,6 +15,8 @@ MaskRCNN-ResNet101 | 43.6 | 57.8 | 46.8 | 26.3 | | |
 FCOS-ResNet50 | 42.3 | 54.2 | 45.5 | 26.4 | | |
 FCOS-ResNet101 | 43.8 | 56.4 | 47.4 | 28.8 | | |
 
+For anchor-based detectors, test augmentations are maximum=minimum=800.
+
 ## Installation
 ```
 git clone https://github.com/DaEunFullGrace/DyRA.git
@@ -25,10 +27,10 @@ DETR - Will be uploaded together with the weight link
 
 ## Config Files
 * Config files are in "detectron2/configs/DyRA" or "AdelaiDet/configs/DyRA"
-* If you want to use pre-trained weight for DyRA's image encoder, you should check the cfg.RESIZER.WEIGHTS contains a "resizer"
+* To use pre-trained weight for DyRA's image encoder, you should check the cfg.RESIZER.WEIGHTS contains a "resizer"
   * E.g., cfg.RESIZER.WEIGHTS = "../weights/R-50-resizer.pkl"
 * END_LR of ConstCosineLR: approximately 3/2 * cfg.BASE_LR_END
-  * cfg.BASE_LR_END=7e-5 - can get higher accuracy in certain models(likes RetinaNet or FCOS)
+  * cfg.BASE_LR_END=7e-5 - can get higher accuracy in certain models(like RetinaNet or FCOS)
 
 ## Training and Evaluation
 The same command as the detectron2
