@@ -31,7 +31,7 @@ DETR - Will be uploaded together with the weight link
   * cfg.BASE_LR_END=7e-5 - can get higher accuracy in certain models(likes RetinaNet or FCOS)
 
 ## Training and Evaluation
-The same command as the detectron2\
+The same command as the detectron2
 
 ## Acknowledgement
 Our code is based on [detectron2](https://github.com/facebookresearch/detectron2) and [AdelaiDet](https://github.com/aim-uofa/AdelaiDet/tree/master).
