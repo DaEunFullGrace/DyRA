@@ -32,7 +32,6 @@ DETR - Will be uploaded together with the weight link
 
 ## Training and Evaluation
 The same command as the detectron2\
-Evaluation only supports single-gpu environment
 
 ## Acknowledgement
 Our code is based on [detectron2](https://github.com/facebookresearch/detectron2) and [AdelaiDet](https://github.com/aim-uofa/AdelaiDet/tree/master).
