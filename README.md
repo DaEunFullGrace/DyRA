@@ -1,5 +1,5 @@
 # DyRA: Dynamic Resolution Adjustment for Scale-robust Object Detection
-* [PaperUpdate] Currently updating [PaperLink](https://arxiv.org/abs/2311.17098)
+* [PaperUpdate] Currently updating [PaperLink](https://arxiv.org/abs/2311.17098) - To be more easy to read, almost done.
 * [CodeImplementation] There is a code implementation issue for balance loss. Currently, we are fixing it (+ Re-experimenting for this).
 
 Our work supports RetinaNet, Faster-RCNN, Mask-RCNN, FCOS, and DETR(still in training).
