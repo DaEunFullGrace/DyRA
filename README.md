@@ -1,4 +1,6 @@
 # DyRA: Dynamic Resolution Adjustment for Scale-robust Object Detection
+<b>The current code version has some implementation issues. We will re-upload. </b>
+
 * [PaperUpdate] Currently updating [PaperLink](https://arxiv.org/abs/2311.17098) - To be more easy to read, almost done.
     * We will update the paper into the final version in ArviX!
 * [CodeImplementation] There is a code implementation issue for balance loss. Currently, we are fixing it (+ Re-experimenting for this).
