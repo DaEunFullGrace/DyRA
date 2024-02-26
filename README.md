@@ -3,6 +3,7 @@
 
 * [PaperUpdate] Currently updating [PaperLink](https://arxiv.org/abs/2311.17098) - To be more easy to read, almost done.
     * We will update the paper into the final version in ArviX!
+    * [TODO] Update ArviX - more experiments will be added / More accuracy will be improved
 * [CodeImplementation] There is a code implementation issue for balance loss. Currently, we are fixing it (+ Re-experimenting for this).
 
 Our work supports RetinaNet, Faster-RCNN, Mask-RCNN, FCOS, and DETR(still in training).
